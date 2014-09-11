@@ -5,4 +5,4 @@ Mina laborationer i Webbteknisk Introduktion
 
 Hi there!
 Enjoy!
-Yor travel!
+Your travel!
