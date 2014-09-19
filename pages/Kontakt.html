@@ -6,127 +6,25 @@
 </head>
 <body>
 
-<form metod="post" action="script.php"> 
+<form metod="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php"> 
    <fieldset>
-       <legend>Personlig Information</legend>
-           <br> Förnamn</br>
-        <input required placeholder="Förnamn" maxlength="13" type="text" name="namn">
-            <br>Efterrnamn</br>
-        <input placeholder="Efternamn" maxlength="16 type="Text" name="efternamn">
-            <br>E-mail</br>
-        <input placeholder="E-mail" type="email" name="email">
+       <legend>KontaktsInformation</legend>
+                    Förnamn
+            <input required placeholder="Förnamn" maxlength="13" type="text" name="namn">
+                    Efterrnamn
+            <input required placeholder="Efternamn" maxlength="26" type="Text" name="efternamn">
+                    E-mail
+            <input required placeholder="namn@domain.com" type="email" name="email">
+           
     </fieldset>  
     
-    <fieldset>   
+    <fieldset>
+        <legend>Ditt Meddelande</legend>
+            <label for="message">Fråga/Kommentar</label>
+            <textarea required placeholder="Fråga/Kommentar" name="message" cols="55" rows="12"></textarea>
+            <input type="submit" name="submit" id="submit" value="Skicka Ärendet" />
+   </fieldset>  
+     
+ </body>
     
-    <label for="Förnamn">Name</label>
-<input type="text" name="name" placeholder="Full Name">
- 
-<label for="email">E-mail</label>
-<input type="email" name="email" placeholder="name@domain.com">
- 
-<label for="phone">Phone</label>
-<input type="tel" name="phone" placeholder="ex. (555) 555-5555">
-
-        <fieldset>  
-        
- 
-<label for="name">Name</label>
-<input type="text" name="name">
- 
-<label for="email">E-mail</label>
-<input type="email" name="email">
- 
-<label for="phone">Phone</label>
-<input type="text" name="phone">
- 
-<label for="website">Website</label>
-<input type="url" name="url">
- 
-<label for="message">Question/Comment</label>
-<textarea name="message"></textarea>
- 
-<input type="submit" name="submit" id="submit" value="Send Message" />
- 
-</fieldset>
-
- 
-<label for="name">Name</label>
-<input type="text" name="name">
- 
-<label for="email">E-mail</label>
-<input type="email" name="email">
- 
-<label for="phone">Phone</label>
-<input type="text" name="phone">
- 
-<label for="website">Website</label>
-<input type="url" name="url">
- 
-<label for="message">Question/Comment</label>
-<textarea name="message"></textarea>
- 
-<input type="submit" name="submit" id="submit" value="Send Message" />
- 
-</fieldset>
-
-        <textarea required rows="5" cols="30" 
-        skriv ditt meddelande> </>textarea>
-     </fieldset>
-     <fieldset>   
-    
-        <legend>Ditt Meddelande</legend>    
-        <input type="checkbox">
-        <input type="submit" value="Skicka Mig" />
-         </fieldset>
-         
-         <fieldset>    
- 
-<label for="name">Name</label>
-<input type="text" name="name">
- 
-<label for="email">E-mail</label>
-<input type="email" name="email">
- 
-<label for="phone">Phone</label>
-<input type="text" name="phone">
- 
-<label for="website">Website</label>
-<input type="url" name="url">
- 
-<label for="message">Question/Comment</label>
-<textarea name="message"></textarea>
- 
-<input type="submit" name="submit" id="submit" value="Send Message" />
- 
-</fieldset>
-
-<fieldset>
-                <legend>Contact Details</legend>
-                        <label for="name">Name:</label>
-                        <input id="name"><br />
-
-                        <label for="telephone">Telephone:</label>
-                        <input id="telephone"><br />
-
-                        <label for="user-email">Email:</label>
-                        <input id="user-email">
-        </fieldset>
-        <fieldset>
-                <legend>User info</legend>
-                        <label for="username">Username:</label>
-                        <input id="username"><br />
-
-                        <label for="password">Password:</label>
-                        <input id="password"><br />
-        </fieldset>
-        <input type="submit" value="Submit now" />
-
-
-        </form>
-        
-        <form> Name: <input type="text" name="Name" size="15" /> <br /> Email: <input type="email" name="Email" size="15" /> <br /> Message: <br /> <textarea cols="20" rows="20"></textarea> <br /> <input type="submit" value="Submit" /> </form>
-
-        
-    </body>
-    </html>
+</html>
