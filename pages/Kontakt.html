@@ -6,23 +6,37 @@
 </head>
 <body>
 
-<form metod="post" action="" /> 
+<form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST" > 
    <fieldset>
        <legend>KontaktsInformation</legend>
                    Förnamn
-            <input required placeholder="Förnamn" maxlength="13" type="text" name="namn">
+            <input required placeholder="Förnamn" maxlength="13" type="text" name="namn" />
                     Efterrnamn
-            <input required placeholder="Efternamn" maxlength="26" type="Text" name="efternamn">
-                    E-mail
-            <input required placeholder="namn@domain.com" type="email" name="email">
+            <input required placeholder="Efternamn" maxlength="26" type="Text" name="efternamn" />
+                   
            
     </fieldset>  
-    
     <fieldset>
-        <legend>Ditt Meddelande</legend>
-            <textarea required placeholder="Din Fråga/Kommentar här" name="message" cols="55" rows="12"></textarea>
+         <legend>Sätt att kontakta</legend>
+             <input type="radio" name="group1" value="e-mail"/> E-mail
+              <input placeholder="namn@domain.com" type="email" name="email" />
+              <p>
+              <input type="radio" name="group1" value="telef"/> Telefon
+              <input placeholder="0791234456" type="tel" name="telefon">
+           
+    </fieldset>
+    <fieldset>
+        <legend>Ärendet</legend>
+            Ärendetyp:
+            <select name="Ärendet">
+                <option value="fråga">Fråga</option>
+                <option value="kommentar">Kommentar</option>
+                <option value="övrigt">Övrigt</option>
+            </select>
+               <p>Ditt meddelande:</p>
+            <textarea required placeholder="Din Fråga/Kommentar här" name="meddelande" cols="55" rows="12"></textarea>
+   </fieldset> 
             <input type="submit" name="submit" id="submit" value="Skicka Ärendet" />
-   </fieldset>  
    </form>
      
  </body>
