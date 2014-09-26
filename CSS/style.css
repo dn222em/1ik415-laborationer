@@ -10,18 +10,16 @@
 
 ------------------------------------------------------------------*/
 #container {
-	position: relative;
-	max-width: 1200px;
+	position: relative;	max-width: 1200px;
 	background-color: #FFFFF;
-	overflow: auto;
-	margin: 0 auto;
+	overflow: auto;	margin: 0 auto;
+
 }
 
 /*Top
 -------------------------------------------------------------------*/
 #top {
-	max-width: 1200px;
-	height: 150px;
+	max-width: 1200px;	height: 150px;
 	background-color: #125F1B; 
 	background: url('../pics/logo.png') no-repeat; background-size:1200px 150px;
 
@@ -37,10 +35,8 @@
 /*Navigation -Menu
 -------------------------------------------------------------------*/
 #navigation {
-	margin-top: 1px;
-	padding-right:0px;
-	width: 250px;
-	height:auto;
+	margin-top: 1px;	padding-right:0px;
+	width: 250px;	height:auto;
 	float: left;
 	background-color:#FFFFF;
 }
@@ -48,75 +44,52 @@
 
 /*Menu attributes
 -----------------------------------------------*/
-.menu{
+.menu {
 
-	list-style-type:none;
-	float:left;
+	list-style-type:none;	float:left;
 	font-family: "arial", "helvetica", "serif"; font-variant:small-caps;
 	font-size: 20px; font-weight:bold;
 	margin-top:1px;
-
 }
 
 .menu li {	
-	height: 48px;
-	line-height: 38px;
-	padding-top:0px;
-	padding-left:0px;
-	padding-right:0px;
+	height: 48px; line-height: 38px;
+	padding-top:0px;	padding-left:0px;	padding-right:0px;
 
 }
 .menu li a {	
-	text-decoration: none; 
-
-	display:block;
-	border:solid 2px black;
-	text-align:center;
-	width: 180px;
-	color:white;
-	background-color:green;
-}	
-.menu li a:visited{
-	color:white;
-	background-color:green;	
-}
-.menu li a:hover{
-	background-color:white;
-	color:green;
+	text-decoration: none; 	display:block;
+	border:solid 2px black;	text-align:center;	width: 180px;
+	color:white;	background-color:green;
 	
-}
-.menu l a:active{
-	background-color:black;
-	color:black;
-}
+}	
+.menu li a:visited{ color:white; background-color:green;}
 
-.menu li a:focus{
-	background-color:black;	
-	color:green;
-}
+.menu li a:hover{ background-color:white;color:green;}
+
+.menu li a:active{ background-color:black;	color:black;}
+
+.menu li a:focus { background-color:black;	color:green;}
+
 
 /*Content
 -------------------------------------------------------------------*/
 #content {
 	background-color: #FFFFF;
-	width: 668px;
-	margin-top: 2px;
-	margin-left: 16px;
-	margin-bottom: 120px;
+	width: 668px;	margin-top: 2px;
+	margin-left: 16px;	margin-bottom: 120px;
 	float: left;
+
 	
 }
 
 /*Sidebar
 -------------------------------------------------------------------*/
 #sidebar {
-	
-	background-color: #fcfcfc ;
-	font-family: "arial", "helvetica", "serif"; 
-	color: white;
+	background-color: #fcfcfc;
+	font-family: "arial", "helvetica", "sans-serif"; color: white;
 	border: 2px solid #125F1B; 
-	margin-top: 2px;
-	width: 250px;
+	margin-top: 2px;	width: 250px;
 	float: right;
 	
 }
@@ -125,11 +98,9 @@
 --------------------------------------------------------------------*/
 #footer {
 	
-	position: fixed;
-	bottom:0px;
+	position: fixed;	bottom:0px;
 	height: 80px;
-	background-color: #125F1B;
-	color:white;
+	background-color: #125F1B;	color:white;
 	width:1200px;
 	
 }
@@ -137,3 +108,37 @@
 
 /*Typografi
 ---------------------------------------------------------------------------------------------------------*/
+/*Links
+-------------------------------*/
+a:link {color:green; text-decoration:none;}
+a:visited {color:#CB29D5;} /*lila*/
+a:hover{color:red;}
+a:focus {color:blue;}
+a:active{color:#29D17;} /*light-green*/
+
+/*Headers
+------------------------------*/
+body {font-family :"times", "georgia", "serif", "Lucida Sans Unicode", "Lucida Grande"; 
+	line-height: 25px; color: #312F2F; font-size: 1.1em;}
+
+h1, h2, h3, h4, h5, h6 {font-family: "arial", "tahoma", "helvetica", "san serif", "verdana";
+font-weight:bold; color: #2A8018; line-height: 1.8em;  font-size: 1.8em;} /*tema-green*/
+
+h2 {line-height: 28px;  font-size: 28px;}
+h3 {line-height: 26px;  color:  black; font-size: 1.6em;}
+h4 {line-height: 24px;  color:  black; font-size: 1.4em;}
+h5 {line-height: 22px;  color:  black; font-size: 1.3em; text-transform:uppercase;}
+h6 {line-height: 20px;  color:  black; font-size: 1.2em; font-weight:none;}
+
+p {font-family :"times", "georgia", "serif", "Lucida Sans Unicode", "Lucida Grande"; 
+	line-height: 25px; color: #312F2F; font-size: 1.1em; 
+	width:665px;} /*grey-black*/
+	
+#content ol, ul{font-family: "arial", "tahoma", "helvetica", "san serif", "verdana"; 
+line-height: 25px; color: #4829D1; font-size: 1em;}
+
+#content li, dl, dt  {font-family :"times", "georgia", "serif", "Lucida Sans Unicode", "Lucida Grande";
+	line-height: 25px; color: #312F2F; font-size: 1em; font-weight:bold;}
+
+#special {font-family:"sans-serif"; font-size: 40px; font-weight:bold;}
+
