@@ -1,100 +1,139 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
 
+/*Layout
+-----------------------------------------------------------------------------------------------------------*/
+/*Container white (#FFFFF)
+*Top -  green { #125F1B } --> Title( #2A8018)
+*Navigation green
+*Content - #FFFFF
+*footer-green { #125F1B }
+*Siderbar #fcfcfc (white.gray)
 
-
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-/*article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-
-
-
-
-
-/*Layout*/
+------------------------------------------------------------------*/
 #container {
+	position: relative;
 	max-width: 1200px;
-	background-color: white;
+	background-color: #FFFFF;
 	overflow: auto;
-	margin: 0 auto;}
+	margin: 0 auto;
+}
 
+/*Top
+-------------------------------------------------------------------*/
 #top {
 	max-width: 1200px;
-	background-color: green;
-	float: center;}
-	
-#logotype {
-	width: 1200px;
-	float:none;}
-	
+	height: 150px;
+	background-color: #125F1B; 
+	background: url('../pics/logo.png') no-repeat; background-size:1200px 150px;
 
+}
+
+#title {
+	font-family: "arial", "helvetica", "serif"; color: #2A8018;
+	text-shadow: 2px 2px white;
+	padding-left:  15px; padding-top: 105px;
+	position:relative;
+}
+
+/*Navigation -Menu
+-------------------------------------------------------------------*/
 #navigation {
-	background-color: gray;
+	margin-top: 1px;
+	padding-right:0px;
+	width: 250px;
+	height:auto;
+	float: left;
+	background-color:#FFFFF;
+}
 
-	width: 200px;
-	float: left;}
 
+/*Menu attributes
+-----------------------------------------------*/
+.menu{
 
+	list-style-type:none;
+	float:left;
+	font-family: "arial", "helvetica", "serif"; font-variant:small-caps;
+	font-size: 20px; font-weight:bold;
+	margin-top:1px;
+
+}
+
+.menu li {	
+	height: 48px;
+	line-height: 38px;
+	padding-top:0px;
+	padding-left:0px;
+	padding-right:0px;
+
+}
+.menu li a {	
+	text-decoration: none; 
+
+	display:block;
+	border:solid 2px black;
+	text-align:center;
+	width: 180px;
+	color:white;
+	background-color:green;
+}	
+.menu li a:visited{
+	color:white;
+	background-color:green;	
+}
+.menu li a:hover{
+	background-color:white;
+	color:green;
+	
+}
+.menu l a:active{
+	background-color:black;
+	color:black;
+}
+
+.menu li a:focus{
+	background-color:black;	
+	color:green;
+}
+
+/*Content
+-------------------------------------------------------------------*/
 #content {
-	background-color: white;
-	width: 680px;
+	background-color: #FFFFF;
+	width: 668px;
+	margin-top: 2px;
+	margin-left: 16px;
+	margin-bottom: 120px;
+	float: left;
 	
-	margin-left:   10px;
-	margin-right:  10px;
-	margin-bottom: 10px;
-	float: left;}
+}
 
-
+/*Sidebar
+-------------------------------------------------------------------*/
 #sidebar {
-	max-width: 300px;}
-
-
-#footer { 
-	max-width: 1200px;}
+	
+	background-color: #fcfcfc ;
+	font-family: "arial", "helvetica", "serif"; 
+	color: white;
+	border: 2px solid #125F1B; 
+	margin-top: 2px;
+	width: 250px;
+	float: right;
+	
+}
+	
+/*Footer
+--------------------------------------------------------------------*/
+#footer {
+	
+	position: fixed;
+	bottom:0px;
+	height: 80px;
+	background-color: #125F1B;
+	color:white;
+	width:1200px;
+	
+}
 	
 
-
-/*Typografi*/
+/*Typografi
+---------------------------------------------------------------------------------------------------------*/
