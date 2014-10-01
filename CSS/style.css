@@ -1,4 +1,9 @@
 
+
+/*CSS -Stylesheet
+-----------------------------------------------------------------------------------------------------------*/
+
+
 /*Layout
  Using: Two columns floating layout
 Total width: 1100px 
@@ -25,7 +30,7 @@ Total width: 1100px
 	height: 150px;
 	background-color: #125F1B; 
 	background: url('../pics/logo.png') no-repeat; background-size: 1200px 150px;
-	
+	border-radius:100px;
 }
 
 #title {
@@ -102,16 +107,16 @@ height:60px;
 .menu li {	
 	text-decoration:none;
 	list-style-type:none;
-	height: 58px; line-height: 48px;
+	height: 62px; line-height: 48px;
 	padding-top:0px;	padding-left:0px;	padding-right:0px;
-width: 194px;
+	width: 190px;
 }
 .menu li a {	
 	display:block;
 /*border: solid 3px black;*/	
 	text-align:center;	
-	width: 194px;
-	border: ridge yellow medium;
+	width: 190px;
+/*	border: inset yellow thick;*/
 	border-radius:58px;
  background-color:green; 	
  color:white;	
@@ -156,14 +161,14 @@ h6 {line-height: 25px;  color:  black; font-size: 1.2em; font-weight:none;}
 
 /*Body
 -----------------------------*/
-p {font-family :"times", "georgia", "serif", "Lucida Sans Unicode", "Lucida Grande"; 
-			line-height: 25px; color: #312F2F; font-size: 1em; 	} /*grey-black*/
+p {font-family : "Times New Roman", "times", "georgia", "serif", "Lucida Sans Unicode", "Lucida Grande"; 
+			line-height: 25px; color: #312F2F; font-size: 1.2em; 	} /*grey-black*/
 	
 #content ol, ul{font-family: "arial", "tahoma", "helvetica", "san serif", "verdana"; 
 			line-height: 25px; color: #4829D1; font-size: 1em;}
 
 #content li, dl, dt  {font-family :"times", "georgia", "serif", "Lucida Sans Unicode", "Lucida Grande";
-			line-height: 25px; color: #312F2F; font-size: 0.9em; font-weight:bold;}
+			line-height: 25px; color: #312F2F; font-size: 1em; font-weight:bold;}
 			
 			
 
@@ -174,7 +179,30 @@ img { max-width:710px;}
 video {max-width:710px;}
 
 
+/*Form -  Contakt. 
+--------------------------------*/
+.contakt_form {max-width:705px; 
+		padding-top:40px; 
+		line-height:2em; 
+		font-size: 1.3em;
+		
+}
+		
+.contakt_form label { text-align:right;}
 
+.contakt_form input {background-color: #FFF0F0; font-size: 0.7em; margin-bottom:20px;} 
+
+.contakt_form option {width:80px; }
+
+.contakt_form textarea {background-color: #FFF0F0; font-size: 0.9em; float:right; }
+
+.zozo {background-color: rgb(240, 240, 240);
+	height: 45px; line-height: 43px; 
+	text-align:center;
+	margin-top:10px;
+border-radius:20%;
+font-size:0.8em;
+}
 
 
 /*Speciall typografi- classes
@@ -220,7 +248,7 @@ video {max-width:710px;}
 		
 		
 /*Speciall tabeller- classes
------------------------------*/
+------------------------------*/
 		
 .tables {border:3px solid green; font-size:1.3em; line-height:50px; text-align:center;}
 
@@ -233,7 +261,83 @@ video {max-width:710px;}
 	color: green;}
 
 
-		
-		
-		
-					
+
+
+/* Print properties. sv- Skrivare
+------------------------------------------------------------------------------------------------------*/
+
+@media print{
+    
+    /*Layout
+    ------------------------*/
+    
+#top {display:none;}
+
+#navigation {display:none;}
+
+#sidebar {display:none;} 
+
+#footer {display:none;} 
+
+#content {border:0; border-style:none; background-color:white;}
+
+#content a:after {
+    content: "("attr(href)")";} /*visar hela länken vid utskrift*/
+
+.me {font-family: "arial", "tahoma", "helvetica", "san serif", "verdana";
+        font-weight:bold; color: #2A8018; line-height: 1.5em;  font-size: 1.3em;
+            float:right;}
+            
+            
+/*End Layout
+-----------------------------------------------*/
+
+
+    /*Media
+    -----------------------*/
+video {display:none;}
+img {border:0;}
+
+/*End Media
+----------------------------------------------*/
+
+
+            
+    /*Typografi
+    -----------------------*/
+       
+h1, h2, h3, h4, h5, h6 {font-family: "arial", "tahoma", "helvetica", "san serif", "verdana";
+        font-weight:bold; color: #2A8018; line-height: 1.5em;  font-size: 1.3em;}
+        
+p {font-family : "Times New Roman", "times", "georgia", "serif", "Lucida Sans Unicode", "Lucida Grande"; 
+			line-height: 1.5em; color: #312F2F; font-size: 1.1em;} /*grey-black*/
+	
+#content ol, ul{font-family: "arial", "tahoma", "helvetica", "san serif", "verdana"; 
+			line-height: 25px; color: #4829D1; font-size: 1em;}
+
+#content li, dl, dt  {font-family :"times", "georgia", "serif", "Lucida Sans Unicode", "Lucida Grande";
+			line-height: 1.5em; color: #312F2F; font-size: 1em;}
+			
+/*End Typografi
+--------------------------------------------*/
+
+
+
+	/*Speciall media - classes
+    --------------------------*/
+.sociall {border:none;}
+
+#bild  {border:none;}
+	
+.ram {border-style:none; background-color: none;  }
+			
+.ram h3 {border:none;}
+
+.right{ border:none;}
+
+/*End speciall
+---------------------------------------------*/
+
+
+}    /*End Print*/
+

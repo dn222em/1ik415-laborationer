@@ -18,12 +18,11 @@
 			<li><a href="../pages/laborationer.html">Laboration</a></li>
 			<li><a href="../pages/Presentation.html">Presentation</a></li>
 			<li><a href="../pages/Kontakt.html" id="active">Kontakt</a></li>
-
 		</ul>
 	</div>
     <div id="content">
 		    <p></p>
-<form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST" > 
+<form class="contakt_form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST" > 
    <fieldset>
        <legend>KontaktsInformation</legend>
                    Förnamn
@@ -35,10 +34,10 @@
     </fieldset>  
     <fieldset>
          <legend>Sätt att kontakta</legend>
-             <input type="radio" name="group1" value="e-mail"/> E-mail
-              <input placeholder="namn@domain.com" type="email" name="email" />
-              <p>
-              <input type="radio" name="group1" value="telef"/> Telefon
+             <input class="pavlis" type="radio" name="group1" value="e-mail" checked /> E-mail
+              <input required placeholder="namn@domain.com" type="email" name="email" />
+              <br />
+              <input class="pavlis" type="radio" name="group1" value="telef"/> Telefon
               <input placeholder="0791234456" type="tel" name="telefon">
            
     </fieldset>
@@ -49,16 +48,17 @@
                 <option value="fråga">Fråga</option>
                 <option value="kommentar">Kommentar</option>
                 <option value="övrigt">Övrigt</option>
+           <br />
             </select>
-               <p>Ditt meddelande:</p>
-            <textarea required placeholder="Din Fråga/Kommentar här" name="meddelande" cols="55" rows="12"></textarea>
+          <br />Ditt meddelande:
+            <textarea Ditt meddelande:required placeholder="Din Fråga/Kommentar här" name="meddelande" cols="55" rows="12"></textarea>
    </fieldset> 
-            <input type="submit" name="submit" id="submit" value="Skicka Ärendet" />
+            <input class="zozo" type="submit" name="submit" id="submit" value="Skicka Ärendet" />
    </form>
    
    </div>
     <div id="sidebar">
-    
+    <p>Hello!</p>
     </div>
     
     <div id="footer">	

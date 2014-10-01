@@ -1,0 +1,78 @@
+
+/* Print properties. sv- Skrivare
+--------------------------------------------------------------------------------*/
+
+@media print{
+    
+    /*Layout
+    ------------------------*/
+    
+#top {display:none;}
+
+#navigation {display:none;}
+
+#sidebar {display:none;} 
+
+#footer {display:none;} 
+
+#content {border:0; border-style:none; background-color:white;}
+
+#content a:after {
+    content: "("attr(href)")";} /*visar hela länken vid utskrift*/
+
+.me {font-family: "arial", "tahoma", "helvetica", "san serif", "verdana";
+        font-weight:bold; color: #2A8018; line-height: 1.5em;  font-size: 1.3em;
+            float:right;}
+            
+            
+/*End Layout
+-----------------------------------------------*/
+
+
+    /*Media
+    -----------------------*/
+video {display:none;}
+img {border:0;}
+
+/*End Media
+----------------------------------------------*/
+
+
+            
+    /*Typografi
+    -----------------------*/
+       
+h1, h2, h3, h4, h5, h6 {font-family: "arial", "tahoma", "helvetica", "san serif", "verdana";
+        font-weight:bold; color: #2A8018; line-height: 1.5em;  font-size: 1.3em;}
+        
+p {font-family : "Times New Roman", "times", "georgia", "serif", "Lucida Sans Unicode", "Lucida Grande"; 
+			line-height: 1.5em; color: #312F2F; font-size: 1.1em;} /*grey-black*/
+	
+#content ol, ul{font-family: "arial", "tahoma", "helvetica", "san serif", "verdana"; 
+			line-height: 25px; color: #4829D1; font-size: 1em;}
+
+#content li, dl, dt  {font-family :"times", "georgia", "serif", "Lucida Sans Unicode", "Lucida Grande";
+			line-height: 1.5em; color: #312F2F; font-size: 1em;}
+			
+/*End Typografi
+--------------------------------------------*/
+
+
+
+	/*Speciall media - classes
+    --------------------------*/
+.sociall {border:none;}
+
+#bild  {border:none;}
+	
+.ram {border-style:none; background-color: none;  }
+			
+.ram h3 {border:none;}
+
+.right{ border:none;}
+
+/*End speciall
+---------------------------------------------*/
+
+
+}    /*End Print*/
