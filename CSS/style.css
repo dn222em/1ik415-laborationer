@@ -94,7 +94,7 @@ height:60px;
 
 /*Menu attributes
 ------------------------------------------------------*/
-.menu {
+/*.menu {
 	float:left;
 	font-family: "arial", "helvetica", "serif"; font-variant:small-caps;
 	font-size: 20px; font-weight:bold;
@@ -108,16 +108,18 @@ height:60px;
 	text-decoration:none;
 	list-style-type:none;
 	height: 62px; line-height: 48px;
-	padding-top:0px;	padding-left:0px;	padding-right:0px;
+	padding-top:0px;	
+	padding-left:0px;	
+	padding-right:0px;
 	width: 190px;
 }
 .menu li a {	
 	display:block;
-/*border: solid 3px black;*/	
-	text-align:center;	
+						/*border: solid 3px black;*/	
+/*	text-align:center;	
 	width: 190px;
-/*	border: inset yellow thick;*/
-	border-radius:58px;
+						/*	border: inset yellow thick;*/
+/*	border-radius:58px;
  background-color:green; 	
  color:white;	
 
@@ -133,7 +135,11 @@ height:60px;
 
 #active {
 		background-color:white;	color:black;
-}
+}*/
+
+/*Sprites-Menu
+------------------------------------------------------------------*/
+
 
 /*Typografi
 ---------------------------------------------------------------------------------------------------------*/
@@ -236,14 +242,14 @@ font-size:0.8em;
 		font-size: 50px;
 		line-height:53px;}
 		
-		.ram {border-style:double; background-color: rgb(194, 187, 187);  
+.ram {border-style:double; background-color: rgb(194, 187, 187);  
 			margin:20px; border-width:8px; padding:20px; }
 			
-		.ram h3 {border-bottom:  3px solid black; padding:5px;}
+	.ram h3 {border-bottom:  3px solid black; padding:5px;}
 		
 		.right{width: 250px; height: 250px;
-		 float: right; 
-			border:solid 2px olive;}
+				 float: right; 
+					border:solid 2px olive;}
 		
 		
 		
