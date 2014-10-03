@@ -137,8 +137,48 @@ height:60px;
 		background-color:white;	color:black;
 }*/
 
+
+/*End menu!
+------------------------------------------------------------------------------*/
+
 /*Sprites-Menu
 ------------------------------------------------------------------*/
+
+#menu_pictures {
+	float:left;
+	margin-top:1px;	
+
+}
+#menu_pictures a {
+
+	display:block;
+	background-image: url(pics/sprite.png);
+	text-indent: -99999px;
+	padding-bottom: 5px;
+	
+}
+
+#menu_pictures li  {
+
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	width:24px;
+	height:24px;
+	margin-bottom:20px;
+}
+
+#home { background-position: 0px -48px;} /*kom ihåg -första gäller x-led och andra y-led (uppe + och nere -) mellanrum mellan bilderna spelar roll*/
+#home:hover { background-position: 0 0px;}
+
+#labor { background-position: 0 -144px;}
+#labor:hover { background-position: 0px -96px;}
+
+#present { background-position: 0 -240px;}
+#present:hover { background-position: 0 -192px;}
+
+#cont { background-position: 0 -332px;}
+#cont:hover { background-position: 0 -288px;}
 
 
 /*Typografi
@@ -206,8 +246,8 @@ video {max-width:710px;}
 	height: 45px; line-height: 43px; 
 	text-align:center;
 	margin-top:10px;
-border-radius:20%;
-font-size:0.8em;
+	border-radius:20%;
+	font-size:0.8em;
 }
 
 
@@ -228,11 +268,11 @@ font-size:0.8em;
 			border:solid 8px green;}
 
 #bild  {width: auto; height: auto;
-		 float: right; 
-			border:solid 8px green;
-			margin-right:20px;
-			max-width:100%;
-			max-height:auto;}
+		float: right; 
+		border:solid 8px green;
+		margin-right:20px;
+		max-width:100%;
+		max-height:auto;}
 	
 .minilogo { background-image:url("pics/minilogob.jpg"); /*minilogo på första titeln*/
 		background-repeat: no-repeat;/* repeat, repeat-x, repeat-y */
