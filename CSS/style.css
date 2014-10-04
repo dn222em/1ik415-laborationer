@@ -6,7 +6,7 @@
 
 /*Layout
  Using: Two columns floating layout
-Total width: 1100px 
+Total width: 1200px 
 -----------------------------------------------------------------------------------------------------------*/
 /*Container white (#FFFFF)
 *Top -  green { #125F1B } --> Title( #2A8018)
@@ -83,18 +83,18 @@ Total width: 1100px
 /*Footer
 --------------------------------------------------------------------*/
 #footer {
-clear:both;
-padding:10px;
-background-color:#fff;
-color:white;
-text-align:right;
-height:60px;
+	clear:both;
+	padding:10px;
+	background-color:#fff;
+	color:white;
+	text-align:right;
+	height:60px;
 	
 }
 
 /*Menu attributes
 ------------------------------------------------------*/
-/*.menu {
+.menu {
 	float:left;
 	font-family: "arial", "helvetica", "serif"; font-variant:small-caps;
 	font-size: 20px; font-weight:bold;
@@ -112,14 +112,15 @@ height:60px;
 	padding-left:0px;	
 	padding-right:0px;
 	width: 190px;
+
 }
 .menu li a {	
 	display:block;
 						/*border: solid 3px black;*/	
-/*	text-align:center;	
+	text-align:center;	
 	width: 190px;
 						/*	border: inset yellow thick;*/
-/*	border-radius:58px;
+	border-radius:58px;
  background-color:green; 	
  color:white;	
 
@@ -135,7 +136,7 @@ height:60px;
 
 #active {
 		background-color:white;	color:black;
-}*/
+}
 
 
 /*End menu!
@@ -144,7 +145,7 @@ height:60px;
 /*Sprites-Menu
 ------------------------------------------------------------------*/
 
-#menu_pictures {
+/*#menu_pictures {
 	float:left;
 	margin-top:1px;	
 
@@ -169,7 +170,7 @@ height:60px;
 }
 
 #home { background-position: 0px -48px;} /*kom ihåg -första gäller x-led och andra y-led (uppe + och nere -) mellanrum mellan bilderna spelar roll*/
-#home:hover { background-position: 0 0px;}
+/*#home:hover { background-position: 0 0px;}
 
 #labor { background-position: 0 -144px;}
 #labor:hover { background-position: 0px -96px;}
@@ -178,7 +179,7 @@ height:60px;
 #present:hover { background-position: 0 -192px;}
 
 #cont { background-position: 0 -332px;}
-#cont:hover { background-position: 0 -288px;}
+#cont:hover { background-position: 0 -288px;}*/
 
 
 /*Typografi
@@ -220,9 +221,9 @@ p {font-family : "Times New Roman", "times", "georgia", "serif", "Lucida Sans Un
 
 /*Media
 ------------------------------*/
-img { max-width:710px;}
+img { max-width:700px;}
 
-video {max-width:710px;}
+video {max-width:700px;}
 
 
 /*Form -  Contakt. 
