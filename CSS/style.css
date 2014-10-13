@@ -363,25 +363,28 @@ video {max-width:700px;}
 /*Speciall media - classes
 -----------------------------*/
 .sociall {width: 350px; height: 250px;
-	  background-image: url("pics/social-networks.jpg");
-	  background-repeat:no-repeat;
-	  background-size: 350px; float: right; 
-	  border:solid 8px green;}
+		  background-image: url("pics/social-networks.jpg");
+		  background-repeat:no-repeat;
+		  background-size: 350px; float: right; 
+		  border:solid 8px green;
+}
 
 #bild  {width: auto; height: auto;
 		float: right; 
 		border:solid 8px green;
 		margin-right:20px;
 		max-width:100%;
-		max-height:auto;}
+		max-height:auto;
+}
 	
 .minilogo { background-image:url("pics/minilogob.jpg"); /*minilogo på första titeln*/
-		background-repeat: no-repeat;/* repeat, repeat-x, repeat-y */
-		background-position: top left; /* right, bottom, center ... */
-		background-size: 40px 50px;
-		text-indent: 30px; 
-		font-size: 50px;
-		line-height:53px;}
+			background-repeat: no-repeat;/* repeat, repeat-x, repeat-y */
+			background-position: top left; /* right, bottom, center ... */
+			background-size: 40px 50px;
+			text-indent: 30px; 
+			font-size: 50px;
+			line-height:53px;
+}
 		
 .ram {border-style:double; background-color: rgb(194, 187, 187);  
 			margin:20px; border-width:8px; padding:20px; }
@@ -389,7 +392,7 @@ video {max-width:700px;}
 	.ram h3 {border-bottom:  3px solid black; padding:5px;}
 		
 		.right{width: 250px; height: 250px;
-				 float: right; 
+			 	float: right; 
 					border:solid 2px olive;}
 		
 		

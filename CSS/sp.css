@@ -18,9 +18,9 @@ Total width: 1200px
     
 #container {
  
-	width: 100%;
-	background-color:white;
-	margin:0 auto;
+			width: 100%;
+			background-color:white;
+			margin:0 auto;
 
 }
 
@@ -28,106 +28,104 @@ Total width: 1200px
 -------------------------------------------------------------------*/
 #top {
 	
-	height: auto;
-	background-color: #125F1B; 
-	background: url('../pics/logo.png') no-repeat; background-size: 100%;
+			height: auto;
+			background-color: #125F1B; 
+			background: url('../pics/logo.png') no-repeat; background-size: 100%;
 	
 
 }
 
 #title {
-	font-family: "arial", "helvetica", "serif"; 
-	color: black;
-	font-size:1.5em;
-	text-shadow: 2px 2px green;
-	text-align:center;
-	padding-top: 60px;
+			font-family: "arial", "helvetica", "serif"; 
+			color: black;
+			font-size:1.5em;
+			text-shadow: 2px 2px green;
+			text-align:center;
+			padding-top: 60px;
 }
 
 /*Navigation -Menu
 -------------------------------------------------------------------*/
 #navigation {
-	margin-top: 1px;
-	width: 100%;
-	float: left;
-	background-color:#FFF;
-	padding:0px;
-	padding-top:50px;
+				margin-top: 1px;
+				width: 100%;
+				float: left;
+				background-color:#FFF;
+				padding:0px;
+				padding-top:50px;
 	
 }
 
 /*Content
 -------------------------------------------------------------------*/
 #content {
-	background-color: #FFF;
-	max-width: 100%;	
-	margin-bottom: 20px;
-	float:left;
-	padding-right:5px;
-	padding-left:5px;
+				background-color: #FFF;
+				max-width: 100%;	
+				margin-bottom: 20px;
+				float:left;
+				padding-right:5px;
+				padding-left:5px;
 }
 
 /*Sidebar
 -------------------------------------------------------------------*/
 #sidebar {
-	background-color: #fcfcfc;
-	font-family: "arial", "helvetica", "sans-serif"; color: white;
-	border: 2px solid #125F1B; 
-	margin-top: 50px;
-	max-width: 100%;
-	float: left;
-	padding:0px;
-
-	
+				background-color: #fcfcfc;
+				font-family: "arial", "helvetica", "sans-serif"; color: white;
+				border: 2px solid #125F1B; 
+				margin-top: 50px;
+				max-width: 100%;
+				float: left;
+				padding:0px;
 }
 	
 /*Footer
 --------------------------------------------------------------------*/
 #footer {
-
-    clear:both;
-    padding:10px;
-    background-color:#fff;
-    color:white;
-    text-align:right;
-    height:60px;
+	
+	   clear:both;
+	   padding:10px;
+	   background-color:#fff;
+	   color:white;
+	   text-align:right;
+	   height:60px;
 	
 }
 
 /*Menu attributes
 ------------------------------------------------------*/
 .menu {
-	float:none;
-	font-family: "arial", "helvetica", "serif"; font-variant:small-caps;
-	font-size: 20px; font-weight:bold;
-	margin-top:1px;	
-	margin-left:0px;
-	padding:0px;
-	width:100%;
+				float:none;
+				font-family: "arial", "helvetica", "serif"; font-variant:small-caps;
+				font-size: 20px; font-weight:bold;
+				margin-top:1px;	
+				margin-left:0px;
+				padding:0px;
+				width:100%;
 
 }
 
 .menu li {	
-	text-decoration:none;
-	list-style-type:none;
-	height: 72px; line-height: 45px;
-	padding-top:0px;	
-	padding-left:0px;	
-	padding-right:0px;
-	width: 100%;
+				text-decoration:none;
+				list-style-type:none;
+				height: 72px; line-height: 45px;
+				padding-top:0px;	
+				padding-left:0px;	
+				padding-right:0px;
+				width: 100%;
 }
 .menu li a {	
-	display:block;
-/*	text-align:center;*/
-	text-indent: 90px;
-	width: 96%;
-    background-color:green; 	
-    color:white;
-    border-radius:58px;
-    box-shadow:8px 8px black;
-	background-image: url(pics/sprite.png); 
-	background-repeat:no-repeat; 
-	padding:3px 3px 3px 3px;
+				display:block;
+				/*	text-align:center;*/
+				text-indent: 90px;
+				width: 96%;
+				background-color:green; 	
+				color:white;
+				border-radius:58px;
+				box-shadow:8px 8px black;
+				background-image: url(pics/sprite.png); 
+				background-repeat:no-repeat; 
+				padding:3px 3px 3px 3px;
 
 }	
 
@@ -155,28 +153,28 @@ a.active1   {background-color:white !important;
 			color:black !important; 
 			border: solid 3px green;
 			border-radius:58px;
-		    box-shadow:8px 8px black;
+		 box-shadow:8px 8px black;
 			background-position:50px 9px!important;
 }
 a.active2   {background-color:white !important; 
 			color:black !important; 
 			border: solid 3px green;
 			border-radius:58px;
-		    box-shadow:8px 8px black;
+		 box-shadow:8px 8px black;
 			background-position: 50px -116px!important;
 }
 a.active3   {background-color:white !important; 
 			color:black !important; 
 			border: solid 3px green;
 			border-radius:58px;
-		    box-shadow:8px 8px black;
+		 box-shadow:8px 8px black;
 			background-position: 50px -246px!important;
 }
 a.active4   {background-color:white !important; 
 			color:black !important; 
 			border: solid 3px green;
 			border-radius:58px;
-		    box-shadow:8px 8px black;
+		 box-shadow:8px 8px black;
 			background-position: 50px -376px!important;
 }
 
@@ -237,9 +235,9 @@ p {font-family : "Times New Roman", "times", "georgia", "serif", "Lucida Sans Un
 /*Form -  Contakt. 
 --------------------------------*/
 .contakt_form {width:100%; 
-		padding-top:40px; 
-		line-height:2em; 
-		font-size: 1.3em;
+			padding-top:40px; 
+			line-height:2em; 
+			font-size: 1.3em;
 		
 }
 		
@@ -252,12 +250,12 @@ p {font-family : "Times New Roman", "times", "georgia", "serif", "Lucida Sans Un
 .contakt_form textarea {background-color: #FFF0F0; font-size: 0.9em; float:right; resize:vertical; width:100%; height:320px;}
 
 .zozo {background-color: rgb(240, 240, 240);
-	height: 45px; line-height: 43px; 
-	text-align:center;
-	margin-top:10px;
-	border-radius:10%;
-	font-size:0.8em;
-	box-shadow:8px 8px black;
+			height: 45px; line-height: 43px; 
+			text-align:center;
+			margin-top:10px;
+			border-radius:10%;
+			font-size:0.8em;
+			box-shadow:8px 8px black;
 }
 
 
@@ -272,19 +270,19 @@ p {font-family : "Times New Roman", "times", "georgia", "serif", "Lucida Sans Un
 .single{border:3px solid green;background-color: /*rgb(150, 224, 150)*/ green;color:white;}
 	
 .doubbel{ border:solid 3px green; background-color:/*rgb(240, 240, 240)*/ white;
-	color: green;}
+			color: green;}
 
 
 /*Speciall media - classes
  -----------------------------------*/
  
  .minilogo { background-image:url("pics/minilogob.jpg"); /*minilogo på första titeln*/
-		background-repeat: no-repeat;/* repeat, repeat-x, repeat-y */
-		background-position: top left; /* right, bottom, center ... */
-		background-size: 40px 50px;
-		text-indent: 30px; 
-		font-size: 30px;
-		line-height:53px;
+			background-repeat: no-repeat;/* repeat, repeat-x, repeat-y */
+			background-position: top left; /* right, bottom, center ... */
+			background-size: 40px 50px;
+			text-indent: 30px; 
+			font-size: 30px;
+			line-height:53px;
  }
 		
 .ram{border-style:none; background-color: white; margin:0; padding:0;}
