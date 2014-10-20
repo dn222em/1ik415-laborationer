@@ -96,88 +96,20 @@ Total width: 1200px
 ------------------------------------------------------*/
 .menu {
 			float:none;
-			font-family: "arial", "helvetica", "serif"; font-variant:small-caps;
-			font-size: 20px; font-weight:bold;
-			margin-top:1px;	
-			margin-left:0px;
-			padding:0px;
+			
 			width:100%;
 
 }
 
 .menu li {	
-			text-decoration:none;
-			list-style-type:none;
-			height: 72px; line-height: 45px;
-			padding-top:0px;	
-			padding-left:0px;	
-			padding-right:0px;
+		
 			width: 100%;
 }
 .menu li a {	
 			display:block;
-			/*	text-align:center;*/
-			text-indent: 90px;
+			
 			width: 96%;
-			background-color:green; 	
-			color:white;
-			border-radius:58px;
-			box-shadow:8px 8px black;
-			background-image: url(pics/sprite.png); 
-			background-repeat:no-repeat; 
-			padding:3px 3px 3px 3px;
-
 }	
-
-.menu li a:visited{ color:white; background-color:green;}
-
-.menu li a:hover{ background-color:white;color:green; border: solid 3px #DEBF40;}
-
-.menu li a:focus { background-color:black;	color:green;}
-
-/*adding sprites on menu
-----------------------------------------*/
-#home { background-position: 50px -55px; background-size: 32px;} /*kom ihåg -första gäller x-led och andra y-led (uppe + och nere -) mellanrum mellan bilderna spelar roll*/
-#home:hover { background-position:50px 9px;}
-
-#labor { background-position: 50px -180px; background-size: 32px;}
-#labor:hover { background-position: 50px -116px;}
-
-#present { background-position: 50px -310px; background-size: 32px}
-#present:hover { background-position: 50px -246px;}
-
-#cont { background-position: 50px -440px; background-size: 32px;}
-#cont:hover { background-position: 50px -376px;}
-
-a.active1   {background-color:white !important; 
-			color:black !important; 
-			border: solid 3px green;
-			border-radius:58px;
-		 box-shadow:8px 8px black;
-			background-position:50px 9px!important;
-}
-a.active2   {background-color:white !important; 
-			color:black !important; 
-			border: solid 3px green;
-			border-radius:58px;
-		 box-shadow:8px 8px black;
-			background-position: 50px -116px!important;
-}
-a.active3   {background-color:white !important; 
-			color:black !important; 
-			border: solid 3px green;
-			border-radius:58px;
-		 box-shadow:8px 8px black;
-			background-position: 50px -246px!important;
-}
-a.active4   {background-color:white !important; 
-			color:black !important; 
-			border: solid 3px green;
-			border-radius:58px;
-		 box-shadow:8px 8px black;
-			background-position: 50px -376px!important;
-}
-
 
 
 
@@ -193,16 +125,6 @@ img { width:100%;}
 video {width:100%;}
 
 
-
-/*Typografi
----------------------------------------------------------------------------------------------------------*/
-/*Links
--------------------------------*/
-a:link {color:green; text-decoration:none;}
-a:visited {color:#CB29D5;} /*lila*/
-a:hover{color:red;}
-a:focus {color:blue;}
-a:active{color:#29D17;} /*light-green*/
 
 /*Headers
 ------------------------------*/
@@ -231,7 +153,6 @@ p {font-family : "Times New Roman", "times", "georgia", "serif", "Lucida Sans Un
 			
 			
 
-
 /*Form -  Contakt. 
 --------------------------------*/
 .contakt_form {width:100%; 
@@ -257,20 +178,6 @@ p {font-family : "Times New Roman", "times", "georgia", "serif", "Lucida Sans Un
 			font-size:0.8em;
 			box-shadow:8px 8px black;
 }
-
-
-/*Speciall tabeller- classes
-------------------------------------*/
-		
-.tables {border:3px solid green; font-size:1.3em; line-height:50px; text-align:center;}
-
-.tables, td {border:solid 2px black ; width: 600px; height:auto;}
-
-
-.single{border:3px solid green;background-color: /*rgb(150, 224, 150)*/ green;color:white;}
-	
-.doubbel{ border:solid 3px green; background-color:/*rgb(240, 240, 240)*/ white;
-			color: green;}
 
 
 /*Speciall media - classes

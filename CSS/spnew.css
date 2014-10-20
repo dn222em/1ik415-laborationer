@@ -1,0 +1,202 @@
+
+/* Mobile Stylesheet - screens <= 480 px;
+------------------------------------------------------------------------------*/
+/*Layout
+ Using: Two columns floating layout
+Total width: 1200px 
+-----------------------------------------------------------------------------------------------------------*/
+/*Container white (#FFFFF)
+*Top -  green { #125F1B } --> Title( #2A8018)
+*Navigation green
+*Content - #FFFFF
+*footer-white { #fff }
+*Siderbar #fcfcfc (white.gray)
+
+------------------------------------------------------------------*/
+
+
+@media screen {
+    
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
+nav, section{display: block;} 
+
+#container {
+ 
+			width: 100%;
+			
+}
+
+/*Top
+-------------------------------------------------------------------*/
+header {
+	
+			
+			background: url('../pics/logo.png') no-repeat; background-size: 100%;
+	
+
+}
+
+title {
+			font-family: "arial", "helvetica", "serif"; 
+			color: black;
+			font-size:1.5em;
+			text-shadow: 2px 2px green;
+			text-align:center;
+			padding-top: 60px;
+}
+
+/*Navigation -Menu
+-------------------------------------------------------------------*/
+nav  {
+			
+			width: 100%;
+			float: left;
+			
+	
+}
+
+/*Content
+-------------------------------------------------------------------*/
+main {
+			padding:10px;
+			max-width: 100%;	
+}
+
+/*Sidebar
+-------------------------------------------------------------------*/
+aside {
+  
+	background-color: #fcfcfc;
+	font-family: "arial", "helvetica", "sans-serif";
+	border: 0px solid #c2c2c2; 
+	/*border-radius:7%;*/
+	box-shadow:0px -6px 8px 4px #bdbdbd inset;
+	margin-top: 0px;	
+	width: 96%;
+	float: left;
+	padding:10px 10px;
+
+}
+#aside-one {
+width:96%;
+}
+#aside-two {
+    width:96%;
+}		
+/*Footer
+--------------------------------------------------------------------*/
+footer {
+	
+	   clear:both;
+	   padding:10px;
+	   background-color:#fff;
+	   color:white;
+	   text-align:right;
+	   height:60px;
+	   width:95%;
+}
+
+/*Menu attributes
+------------------------------------------------------*/
+nav ul {
+		
+			width:100%;
+
+}
+
+nav  li {	
+		
+			width: 100%;
+}
+nav  li a {	
+			
+			width: 96%;
+
+}	
+
+
+/*End menu!
+------------------------------------------------------------------------------*/
+
+
+
+/*Media
+------------------------------*/
+img { width:100%;}
+
+video {width:100%;}
+
+
+
+/*Typografi
+---------------------------------------------------------------------------------------------------------*/
+
+/*Headers
+------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {font-family: "arial", "tahoma", "helvetica", "san serif", "verdana";
+font-weight:bold; color: #2A8018; line-height: 1.5em;  font-size: 1.5em;} /*tema-green*/
+
+h2 {line-height: 28px;  font-size: 1.4px;}
+h3 {line-height: 26px;  color:  black; font-size: 1.4em;}
+h4 {line-height: 25px;  color:  black; font-size: 1.3em;}
+h5 {line-height: 25px;  color:  black; font-size: 1.2em; text-transform:uppercase;}
+h6 {line-height: 25px;  color:  black; font-size: 1.1em; font-weight:none;}
+
+/*Body
+-----------------------------*/
+p {font-family : "Times New Roman", "times", "georgia", "serif", "Lucida Sans Unicode", "Lucida Grande"; 
+			line-height: 25px; color: #312F2F; font-size: 1em;} /*grey-black*/
+	
+main ol, ul{font-family: "arial", "tahoma", "helvetica", "san serif", "verdana"; 
+			line-height: 25px; color: #4829D1; font-size: 1em;}
+
+main li, dl, dt, dd  {font-family :"times", "georgia", "serif", "Lucida Sans Unicode", "Lucida Grande";
+			line-height: 25px; color: #312F2F; font-size: 1em; font-weight:bold;}
+			
+			
+
+
+/*Form -  Contakt. 
+--------------------------------*/
+.contakt_form {width:100%; 
+			padding-top:40px; 
+			line-height:2em; 
+			font-size: 1.3em;
+		
+}
+		
+.contakt_form label { text-align:right;}
+
+.contakt_form input {background-color: #FFF0F0; font-size: 0.7em; margin-bottom:20px;} 
+
+.contakt_form option {width:80px; }
+
+.contakt_form textarea {background-color: #FFF0F0; font-size: 0.9em; float:right; resize:vertical; width:100%; height:320px;}
+
+.zozo {background-color: rgb(240, 240, 240);
+			height: 45px; line-height: 43px; 
+			text-align:center;
+			margin-top:10px;
+			border-radius:10%;
+			font-size:0.8em;
+			box-shadow:8px 8px black;
+}
+
+
+/*Speciall media - classes
+ -----------------------------------*/
+ 
+ .minilogo { background-image:url("pics/minilogob.jpg"); /*minilogo på första titeln*/
+			background-repeat: no-repeat;/* repeat, repeat-x, repeat-y */
+			background-position: top left; /* right, bottom, center ... */
+			background-size: 40px 50px;
+			text-indent: 30px; 
+			font-size: 30px;
+			line-height:53px;
+ }
+		
+.ram{border-style:none; background-color: white; margin:0; padding:0;}
+.ram h3 {border:none;}
+}
+

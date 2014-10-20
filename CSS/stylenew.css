@@ -67,19 +67,24 @@ Total width: 1200px
 *Siderbar #fcfcfc (white.gray)
 
 ------------------------------------------------------------------*/
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
+nav, section{display: block;} 
+
 #container {
 	max-width: 1200px;
 	background-color:white;
 	margin:0 auto;
 	margin-top:-25px;
-	
-	
+	box-shadow:3px 0px 8px  0px #bdbdbd inset;
+	box-shadow:0px 0px 10px  3px #bdbdbd inset;
+
 
 }
 
 /*Top
 -------------------------------------------------------------------*/
-#top {
+header {
 	
 	height: 150px;
 	background-color: #125F1B; 
@@ -88,7 +93,7 @@ Total width: 1200px
 	
 }
 
-#title {
+title {
 	font-family: "arial", "helvetica", "serif"; 
 	color: black;
 	font-size:2em;
@@ -99,56 +104,19 @@ Total width: 1200px
 
 /*Navigation -Menu
 -------------------------------------------------------------------*/
-#navigation {
+nav {
+
 	margin-top: 1px;
-	width: 210px;	height:auto;
+	width: 210px;
 	float: left;
 	background-color:#FFF;
 	padding:0px;
 	padding-top:50px;
-	
+	box-shadow:9px 3px 8px -6px #bdbdbd inset;
 }
-
-/*Content
--------------------------------------------------------------------*/
-#content {
-	background-color: #FFF;
-	max-width: 700px;	
-	margin-bottom: 20px;
-	float: left;
-	padding:0px;
-	padding-left:36px;
-	
-}
-
-/*Sidebar
--------------------------------------------------------------------*/
-#sidebar {
-	background-color: #fcfcfc;
-	font-family: "arial", "helvetica", "sans-serif"; color: white;
-	border: 2px solid #125F1B; 
-	margin-top: 50px;	
-	width: 250px;
-	float: right;
-	padding:0px;
-
-	
-}
-	
-/*Footer
---------------------------------------------------------------------*/
-#footer {
-	clear:both;
-	padding:0px;
-	background-color:#fff;
-	color:white;
-	text-align:right;
-	height:60px;
-}
-
 /*Menu attributes
 ------------------------------------------------------*/
-.menu {
+nav ul{
 	float:left;
 	font-family: "arial", "helvetica", "serif"; font-variant:small-caps;
 	font-size: 20px; 
@@ -159,7 +127,7 @@ Total width: 1200px
 
 }
 
-.menu li {	
+nav li {	
 
 	list-style-type:none;
 	height: 72px; line-height: 48px;
@@ -169,11 +137,12 @@ Total width: 1200px
 	width: 197px;
 	text-decoration:none;
 }
-.menu li a {	
-	display:block;
+nav li a {	
+
 						/*border: solid 3px black;*/	
 						/*text-align:center;*/	
 						/*	border: inset yellow thick;*/
+	display:block;
 	border-radius:58px;
     box-shadow:8px 8px black;
 	background-color:white; color:green;
@@ -183,11 +152,11 @@ Total width: 1200px
 	padding:3px 3px 3px 3px;
 }
 
-.menu li a:visited{ color:white; background-color:green;}
+nav li a:visited{ color:white; background-color:green;}
 
-.menu li a:hover{ background-color:white;color:green; border: solid 3px #DEBF40;}
+nav li a:hover{ background-color:white;color:green; border: solid 3px #DEBF40;}
 
-.menu li a:focus { background-color:black;	color:green;}
+nav li a:focus { background-color:black;	color:green;}
 
 /*adding sprites on menu
 ----------------------------------------*/
@@ -232,9 +201,13 @@ a.active4   {background-color:white !important;
 		    box-shadow:8px 8px black;
 			background-position: 13px -376px!important;
 }
-
-
-
+a.active5   {background-color:white !important; 
+			color:black !important; 
+			border: solid 3px green;
+			border-radius:58px;
+		    box-shadow:8px 8px black;
+			background-position: 13px -246px!important;
+}
 
 /*a.active1234{
 			background-color:white !important; 
@@ -251,53 +224,122 @@ a.active4   {background-color:white !important;
 
 
 /*End menu!
-------------------------------------------------------------------------------*/
+===========================================================================*/
 
-/*Sprites-Menu
-------------------------------------------------------------------*/
 
-/*#menu_pictures {
-	float:left;
-	margin-top:1px;	
+/*Content
+-------------------------------------------------------------------*/
+main {
 
-}
-
-#menu_pictures a {
-
-	display:block;
-	background-image: url(pics/sprite.png); 
-	background-repeat:no-repeat;
-	text-indent: -99999px;
-	padding-bottom: 1px;
-
-}
-
-#menu_pictures li  {
-
-	list-style-type:none;
+	background-color: #FFF;
+	max-width: 700px;	
+	margin-bottom: 20px;
+	float: left;
 	padding:0px;
-	margin:0px;
-	width:24px;
-	height:24px;
-	margin-bottom:10px;
-}*/
+	padding-left:36px;
 
-/*#home { background-position: 15px -66px; background-size: 36px;} /*kom ihåg -första gäller x-led och andra y-led (uppe + och nere -) mellanrum mellan bilderna spelar roll*/
-/*#home:hover { background-position:15px 6px;}
+}
 
-#labor { background-position: 15px -208px; background-size: 36px;}
-#labor:hover { background-position: 15px -136px;}
+/*Sidebar
+-------------------------------------------------------------------*/
+aside {
 
-#present { background-position: 15px -350px; background-size: 36px}
-#present:hover { background-position: 15px -278px;}
+	background-color: #fcfcfc;
+	font-family: "arial", "helvetica", "sans-serif";
+	border: 0px solid #c2c2c2; 
+	/*border-radius:7%;*/
+	box-shadow:0px -6px 8px 4px #bdbdbd inset;
+	margin-top: 0px;	
+	width: 225px;
+	float: right;
+	padding:10px 10px;
 
-#cont { background-position: 15px -496px; background-size: 36px}
-#cont:hover { background-position: 15px -424px;}*/
+}
 
-/*-48px -0, -144 -96px,  -240px -192px, -332px -284,*/
+#aside-one {
+	padding-top:0px;
+	padding-bottom:0px;
+	background-color:#fcfcfc;
+}
+#aside-two {
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+	padding-top:0px;
+	padding-bottom:0px;
+	background-color:#fcfcfc;
+}
+aside /*h3,*/h4 {
+	background-color: green;
+	color:white;
+	text-align:center;
+	padding-top:3px;
+	padding-bottom:3px;
+	box-shadow:4px 4px black;
+	border: inset yellow thick;
+	
+}
+aside p {
+	font-size: 1.4em; 
+	font-weight:bold;
+	text-align:left;
+}
+aside ul {
+	
+	font-family: "arial", "helvetica", "serif";
+	text-transform:capitalize;
+	margin-top:1px;	
+	margin-left:0px;
+	padding:0px;
+	text-align:left;
+}
+aside li {
+	list-style-type:none;
+	text-decoration:none;
+	font-size: 1em; 
+	font-weight:bold;
+	height: 32px; line-height: 20px;
+	padding-top:0px;
+	padding-bottom:5px;
+	padding-left:0px;	
+	padding-right:0px;
+	width:225px;
+	
+}
+aside li a{
+	display:block;
+	background-color:white; color:green;
+	padding:3px 3px 3px 3px;
+}
 
-/*End sprite-menu
----------------------------------------------------------------------*/
+aside li a:visited{background-color:white; color:green; }
+
+aside li a:hover{ background-color:white;color:green; border: solid 3px #DEBF40;}
+
+aside li a:focus { background-color:green;	color:white;}
+
+aside li a:active {background-color:black; color:white; border: solid 3px #DEBF40;}
+
+
+
+/*Footer
+--------------------------------------------------------------------*/
+footer {
+	clear:both;
+	padding:0px;
+	padding-bottom:30px;
+	padding-right:20px;
+	background-color:#fff;
+	color:white;
+	text-align:right;
+	height:60px;
+	border: 2px solid #c2c2c2; 
+	/*border-radius:7%;*/
+	box-shadow:0px 0px 5px 5px #bdbdbd inset;
+}
+
+/*End of layout
+=====================================================================================*/
 
 
 /*Typografi
