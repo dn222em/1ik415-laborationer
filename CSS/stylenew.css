@@ -418,9 +418,10 @@ video {max-width:700px;}
 /*.kommentar textarea{
 	background-color:#FFF0F0;
 	margin-bottom:80px;
-	box-shadow:0px 0px 8px 4px #bdbdbd inset;/*	box-shadow:3px 3px 6px 3px;*/
+	box-shadow:0px 0px 8px 4px #bdbdbd inset;/*	box-shadow:3px 3px 6px 3px;
 
-}
+}*/
+
 .kommentar .zozo {
 	height: 30px; line-height: 20px; 
 	text-align:center;

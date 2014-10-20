@@ -371,7 +371,16 @@ video {max-width:700px;}
 	
 }
 
+/*========================================================
+H-card */
 
+.vcard {
+	background-color:#FFF0F0;git 
+	
+}
+.adr{
+	background-color:#FFF0F0;
+}
 /*Speciall typografi- classes
 -----------------------------*/
 #special {font-family:"sans-serif"; font-size: 40px; font-weight:bold;}
