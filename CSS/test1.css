@@ -1,0 +1,124 @@
+
+#container {
+    max-width:100%;
+    margin:0;
+    padding:0;
+    
+
+}
+
+
+#images {
+    max-width:90%;
+    margin-top:80px;
+    margin-right:10px;
+    margin-left:40px;
+    
+    /*position:relative;*/
+
+}
+
+
+
+#images img{
+    position: relative;
+    width:200px;
+    background-color:white;
+    border:10px solid white;
+    padding-bottom:40px;
+    box-shadow:12px 12px #393939;
+    transform: rotate(5deg);
+    z-index:-1;
+    margin-right:80px;
+    margin-left:20px;
+   
+    /*
+    z-index:-1;
+    margin-right:40px;
+    font: inherit;
+    vertical-align: baseline;
+  
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+    transition: width 2s, height 2s, transform 2s;*/
+}
+#images a img:hover {
+     width:280px;
+     height:230;
+    color: #333;
+    font-size: 20px;
+    content: attr(title);
+    position: relative;
+    top:0px;
+     z-index:-1;
+     transform:none;
+     -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    
+    
+}
+
+#images a{
+    float:left;
+    display:block;
+    text-decoration:none;
+    padding-top: 31px; /*background-color: #FFF;*/
+     margin-right:150px;
+    margin-bottom:98px;
+     -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+    transition: width 2s, height 2s, transform 2s;
+    font: inherit;
+    margin-top:-80px;
+   
+    /*transition-duration: 0.5s;
+    /*color: #666;
+    font-family: "Satisfy",cursive;
+    font-size: 0.9em;
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    vertical-align: baseline;*/
+}
+
+#images a::after{
+    content: attr(title);
+	background-color: white;
+    color: black;
+    font-size:1em;
+    margin-left: -307px;
+  
+    
+  
+    padding-left: 15px;
+    padding-bottom:10px;
+
+
+
+}
+
+#images a:nth-child(1n+2){
+    transform:rotate(-10deg);
+    /*-webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+    transition: width 2s, height 2s, transform 2s;*/
+    
+}
+
+#images a:nth-child(2n+4){
+    transform:rotate(5deg);
+}
+
+aside {
+    max-width:100%;
+    border:solid 1px white;
+    float:right;
+    padding-bottom:20px;
+    margin-top:-680px;
+    margin-right:60px;
+    background-image:url(pics/restaurant_icons.png);
+    background-repeat:repeat;
+    width:200px;
+    height:200px;
+    transform:rotate(20deg);
+    box-shadow:10px solid #f7f7f7;
+    
+}
+

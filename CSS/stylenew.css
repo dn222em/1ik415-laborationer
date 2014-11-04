@@ -93,13 +93,14 @@ header {
 	
 }
 
-title {
+h1{
 	font-family: "arial", "helvetica", "serif"; 
 	color: black;
-	font-size:2em;
-	text-shadow: 2px 2px green;
+	line-height:3em;
+	font-size:2.8em;
 	text-align:center;
-	padding-top: 90px;
+	padding-top:145px;
+
 }
 
 /*Navigation -Menu
@@ -310,6 +311,7 @@ aside li a{
 	display:block;
 	background-color:white; color:green;
 	padding:3px 3px 3px 3px;
+	padding-left:10px;
 }
 
 aside li a:visited{background-color:white; color:green; }
@@ -357,7 +359,7 @@ a:active{color:#29D17;} /*light-green*/
 													/*body {font-family :"times", "georgia", "serif", "Lucida Sans Unicode", "Lucida Grande"; 
 														line-height: 25px; color: #312F2F; font-size: 1.1em; width:674px;} ---->onödigt.Problem*/
 
-h1, h2, h3, h4, h5, h6 {font-family: "arial", "tahoma", "helvetica", "san serif", "verdana";
+h2, h3, h4, h5, h6 {font-family: "arial", "tahoma", "helvetica", "san serif", "verdana";
 font-weight:bold; color: #2A8018; line-height: 1.8em;  font-size: 1.8em;} /*tema-green*/
 
 h2 {line-height: 28px;  font-size: 28px;}
@@ -557,7 +559,7 @@ img {border:0;}
     /*Typografi
     -----------------------*/
        
-h1, h2, h3, h4, h5, h6 {font-family: "arial", "tahoma", "helvetica", "san serif", "verdana";
+h2, h3, h4, h5, h6 {font-family: "arial", "tahoma", "helvetica", "san serif", "verdana";
         font-weight:bold; color: #2A8018; line-height: 1.5em;  font-size: 1.3em;}
         
 p {font-family : "Times New Roman", "times", "georgia", "serif", "Lucida Sans Unicode", "Lucida Grande"; 

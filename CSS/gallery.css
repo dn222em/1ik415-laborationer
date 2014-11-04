@@ -1,108 +1,122 @@
 
+/*
+Gallery - Css
+==============================================================================*/
+
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+
 #container {
     max-width:100%;
     margin:0;
     padding:0;
-    
-
 }
 
 body{
     background-image:url(pics/wood_pattern.png);
     background-repeat:repeat;
+    font-family: 'Pacifico', cursive;
    
 }
 
 #images {
     max-width:90%;
     margin-top:80px;
-    margin-right:10px;
+    margin-right:20px;
     margin-left:40px;
     
     /*position:relative;*/
 
 }
 
-
-
-#images img{
-    position: relative;
-    width:200px;
-    background-color:white;
-    border:10px solid white;
-    padding-bottom:40px;
-    box-shadow:12px 12px #393939;
-    transform: rotate(5deg);
-    z-index:-1;
-    margin-right:80px;
-    margin-left:20px;
-   
-    /*
-    z-index:-1;
-    margin-right:40px;
-    font: inherit;
-    vertical-align: baseline;
-  
-    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
-    transition: width 2s, height 2s, transform 2s;*/
+#images img {
+    padding:3px;
 }
-img:hover {
-     width:250px;
-     height:200;
-     z-index:1;
-     transform:none;
-     /*-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera 
-    transform: rotate(0deg);*/
+
+#images a
+{
+	background: white;
+	display: inline;
+	float: left;
+	margin: 0 15px 30px;
+	padding: 10px 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 3px 8px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 3px 8px rgba(0,0,0,.3);
+	box-shadow: 3px 8px rgba(0,0,0,.3);
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	transition: all .15s linear;
+	z-index:0;
+    position:relative;
 
 }
 
-#images a{
-    float:left;
-    display:block;
-    text-decoration:none;
-    padding-top: 31px; /*background-color: #FFF;*/
-     margin-right:150px;
-    margin-bottom:98px;
-     -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
-    transition: width 2s, height 2s, transform 2s;
-    font: inherit;
-    margin-top:-80px;
-   
-    /*transition-duration: 0.5s;
-    /*color: #666;
-    font-family: "Satisfy",cursive;
-    font-size: 0.9em;
-    margin: 0px;
-    padding: 0px;
-    border: 0px none;
-    vertical-align: baseline;*/
+#images a:after {
+	color: #333;
+	font-size: 25px;
+	content: attr(title);
+	position: relative;
+	top:15px;
 }
 
-#images a::after{
-    content: attr(title);
-	background-color: white;
-    color: black;
-    font-size:1em;
-    margin-left: -307px;
-  
-    
-  
-    padding-left: 15px;
-    padding-bottom:10px;
-
-
-
+#images img { 
+	display: block; 
+	width: inherit; 
+	width:200px;
+	
 }
 
-#images a:nth-child(1n+2){
-    transform:rotate(-10deg);
-    /*-webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
-    transition: width 2s, height 2s, transform 2s;*/
-    
+#images a:nth-child(n)
+{
+	-webkit-transform: rotate(-10deg);  
+	-moz-transform: rotate(-10deg); 
+	transform: rotate(-10deg); 
 }
 
-#images a:nth-child(2n+4){
-    transform:rotate(5deg);
+#images a:nth-child(2n)
+{
+	-webkit-transform: rotate(5deg);  
+	-moz-transform: rotate(5deg); 
+	transform: rotate(5deg); 
+}
+#images a:nth-child(3n) { 
+	-webkit-transform: rotate(-20deg);  
+	-moz-transform: rotate(-20deg); 
+	transform: rotate(-20deg); 
+}
+#images a:nth-child(4n)
+{
+	-webkit-transform: rotate(10deg);  
+	-moz-transform: rotate(10deg); 
+	transform: rotate(10deg); 
+	box-shadow: 8px 4px 6px rgba(0,0,0,.3);
+}
+#images a:nth-child(5n)
+{
+	-webkit-transform: rotate(-15deg);  
+	-moz-transform: rotate(-15deg); 
+	transform: rotate(-15deg); 
+}
+
+
+#images a:hover{
+    -webkit-transform: rotate(0deg); 
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: scale(1.4); 
+    -moz-transform: scale(1.4);
+    transform: scale(1.4);
+    z-index:10;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+    box-shadow: 0 10px 20px rgba(0,0,0,.7);
+
+    -webkit-transition:all 0.4s ease 0.4s;
+    -moz-transition:all 0.4s ease 0.4s;
+    -o-transition:all 0.4s ease 0.4s;
+    transition:all 0.4s ease 0.4s;
 }
 
 aside {
@@ -110,7 +124,7 @@ aside {
     border:solid 1px white;
     float:right;
     padding-bottom:20px;
-    margin-top:-680px;
+    margin-top:-380px;
     margin-right:60px;
     background-image:url(pics/restaurant_icons.png);
     background-repeat:repeat;
@@ -120,4 +134,25 @@ aside {
     box-shadow:10px solid #f7f7f7;
     
 }
+aside p,h3{
+    padding: 10px;
+    opacity:0.5;
+}
+aside a{
+    text-decoration:none;
+    padding:20px 20px;
+    line-height:1.7em;
+    font-size:1.3em;
+    color:red;
+    /*border:1px dashed red;*/
+    
+    
+} 
+aside a:visited{
+    color:red;
+}
 
+aside a:active{
+    color:red;
+}
+    
